@@ -2,6 +2,6 @@ package corejava_kaveriii;
 
 
 public interface NotificationService {
-	void notifyUser(String User);
+	void notifyUser(String message);
 	
 }
