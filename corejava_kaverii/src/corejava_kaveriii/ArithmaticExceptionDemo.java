@@ -8,8 +8,12 @@ public class ArithmaticExceptionDemo {
 		System.out.println(number_one);
 		int number_two=50/10;
 		System.out.println(number_two);
-		int number_three=50/0;
-		System.out.println(number_three);
+		try {
+			int number_three=50/0;
+			System.out.println(number_three);
+		}catch(ArithmeticException e) {
+			System.out.println(e);
+		}	
 		int number_four=50/25;
 		System.out.println(number_four);
 	}
