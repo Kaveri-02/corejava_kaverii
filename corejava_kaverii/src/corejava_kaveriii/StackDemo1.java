@@ -1,6 +1,5 @@
 package corejava_kaveriii;
 
-
 import java.util.Stack;
 public class StackDemo1 {
 
